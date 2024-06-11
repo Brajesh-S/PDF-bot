@@ -1,0 +1,40 @@
+.message-box {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  background-color: #fffefe;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  padding: 3px;
+  margin-left: 6%;
+  margin-bottom: 4%;
+}
+
+.message-input {
+  flex-grow: 1;
+  border: none;
+  padding: 12px 12px;
+  font-size: 14px;
+  background-color: transparent;
+  outline: none;
+}
+
+.send-btn {
+  background: none;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.send-btn svg {
+  width: 24px;
+  height: 24px;
+  fill: #333;
+}
+
+@media (max-width: 600px) {
+  .message-box {
+    margin-bottom: 8%;
+  }
+}

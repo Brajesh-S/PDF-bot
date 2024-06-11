@@ -1,0 +1,80 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 40px;
+}
+.upload-section {
+  display: flex;
+  align-items: center;
+}
+.file-info {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  display: flex;
+  align-content: end;
+}
+
+.file-icon {
+  font-size: 16px;
+  margin-right: 8px;
+  padding: 4px;
+  border: 1px solid #32e947;
+  border-radius: 10%;
+  color: #2ecc71;
+}
+
+.file-name {
+  font-size: 14px;
+  color: #69c45f;
+}
+
+.upload-btn {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #292929;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.upload-btn:hover {
+  background-color: #939393;
+}
+
+.plus-icon {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 8px;
+  color: rgba(0, 0, 0, 0.854);
+  padding-bottom: 4%;
+}
+
+.btn-text {
+  font-size: 14px;
+
+  line-height: -1;
+}
+
+@media (max-width: 600px) {
+  .btn-text {
+    display: none;
+  }
+
+  .upload-btn {
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  .plus-icon {
+    margin-right: 0;
+    padding-bottom: 20%;
+  }
+}
