@@ -36,7 +36,7 @@ const ChatArea = ({ chatHistory, isLoading }) => {
               {msg.sender === "ai" ? (
                 <div dangerouslySetInnerHTML={{ __html: msg.content }} />
               ) : (
-                msg.content
+               <div > {msg.content} </div>
               )}
             </div>
           </div>
