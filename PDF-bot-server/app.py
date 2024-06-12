@@ -15,7 +15,7 @@ app = FastAPI()
 # Enable CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://pdf-bot-qycp.onrender.com","http://localhost:3000","https://pdf-bot-hosting.vercel.app"],  # React app's URL
+    allow_origins=["https://pdf-bot-qycp.onrender.com","http://localhost:3000","https://pdf-bot-hosting.vercel.app", "https://pdf-bot-hosting.onrender.com"],  # React app's URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
