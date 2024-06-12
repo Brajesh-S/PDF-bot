@@ -2,7 +2,7 @@ import axios from "axios";
 
 export async function chat(message) {
     try {
-        const res = await axios.post("http://localhost:8000/chat/", {
+        const res = await axios.post("https://pdf-bot-qycp.onrender.com/chat/", {
             question: message,
         });
 
